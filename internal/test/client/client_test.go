@@ -3,8 +3,8 @@ package client
 import (
 	"testing"
 
-	"github.com/deepmap/oapi-codegen/v2/pkg/securityprovider"
 	"github.com/stretchr/testify/assert"
+	"github.com/ula/oapi-codegen/v2/pkg/securityprovider"
 )
 
 var (

@@ -3,10 +3,10 @@ package externalref
 import (
 	"testing"
 
-	packageA "github.com/deepmap/oapi-codegen/v2/internal/test/externalref/packageA"
-	packageB "github.com/deepmap/oapi-codegen/v2/internal/test/externalref/packageB"
-	petstore "github.com/deepmap/oapi-codegen/v2/internal/test/externalref/petstore"
 	"github.com/stretchr/testify/require"
+	packageA "github.com/ula/oapi-codegen/v2/internal/test/externalref/packageA"
+	packageB "github.com/ula/oapi-codegen/v2/internal/test/externalref/packageB"
+	petstore "github.com/ula/oapi-codegen/v2/internal/test/externalref/petstore"
 )
 
 func TestParameters(t *testing.T) {
