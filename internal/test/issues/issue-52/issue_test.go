@@ -4,9 +4,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/deepmap/oapi-codegen/v2/pkg/codegen"
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
+	"github.com/ula/oapi-codegen/v2/pkg/codegen"
 )
 
 //go:embed spec.yaml

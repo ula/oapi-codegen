@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	issue1298 "github.com/deepmap/oapi-codegen/v2/internal/test/issues/issue-1298"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
+	issue1298 "github.com/ula/oapi-codegen/v2/internal/test/issues/issue-1298"
 )
 
 type testStrictServerInterface struct {
